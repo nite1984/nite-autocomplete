@@ -1,6 +1,6 @@
 {
   "name": "@nite1984/nite-autocomplete",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Vanilla JS universal Autocomplete",
   "main": "src/index.js",
   "scripts": {
