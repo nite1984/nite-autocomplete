@@ -1,0 +1,19 @@
+{
+  "name": "@nite1984/nite-autocomplete",
+  "version": "1.0.0",
+  "description": "Vanilla JS universal Autocomplete",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nite1984/nite-autocomplete.git"
+  },
+  "author": "Nite",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nite1984/nite-autocomplete/issues"
+  },
+  "homepage": "https://github.com/nite1984/nite-autocomplete#readme"
+}
