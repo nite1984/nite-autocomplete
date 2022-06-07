@@ -1,6 +1,7 @@
 /**
  * NiteAutocomplete
- * v1.0.2 2022/06/07
+ * v1.0.3 2022/06/07
+ * Author: Marco Scattina
  * https://github.com/nite1984/nite-autocomplete
  * 
  * Released under the MIT License
