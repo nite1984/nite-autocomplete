@@ -36,7 +36,8 @@ const autocomplete = new NiteAutocomplete({
 //Returns the current selected item (null if selection is empty)
 autocomplete.getSelectedElement();
 
-//Manually set the current selected element (Note that the object can have any field, this is just an example)
+//Manually set the current selected element
+//Note that the object can have any field, this is just an example)
 autocomplete.setSelectedElement({
     id: 1,
     name: 'John',
