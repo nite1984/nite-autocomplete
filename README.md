@@ -33,7 +33,7 @@ const autocomplete = new NiteAutocomplete({
 });
 ```
 
-##### Returns the current selected item (null if selection is empty)
+##### Return the current selected item (null if selection is empty)
 ```
 autocomplete.getSelectedElement();
 ```
@@ -52,12 +52,12 @@ autocomplete.setSelectedElement({
 autocomplete.reset();
 ```
 
-##### Disables the reset functionality
+##### Disable the reset icon functionality
 ```
 autocomplete.disableResetIcon();
 ```
 
-##### Re-enables the reset functionality
+##### Re-enables the reset icon functionality
 ```
 autocomplete.enableResetIcon();
 ```
