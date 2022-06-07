@@ -38,7 +38,7 @@ const autocomplete = new NiteAutocomplete({
 autocomplete.getSelectedElement();
 ```
 
-##### Manually set the current selected element (Note that the object can have any field, this is just an example)
+##### Manually set the current selected element (Note that the provided object can have any field, this is just an example)
 ```
 autocomplete.setSelectedElement({
     id: 1,
@@ -57,7 +57,7 @@ autocomplete.reset();
 autocomplete.disableResetIcon();
 ```
 
-##### Re-enables the reset icon functionality
+##### Re-enable the reset icon functionality
 ```
 autocomplete.enableResetIcon();
 ```
