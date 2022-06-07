@@ -1,6 +1,6 @@
 # nite-autocomplete
 
-# Install
+## Install
 
 ```
 npm i @nite1984/nite-autocomplete
@@ -12,7 +12,7 @@ import NiteAutocomplete from '@nite1984/nite-autocomplete';
 window.NiteAutocomplete = NiteAutocomplete;
 ```
 
-# Example Usage
+## Example Usage
 
 ```
 const autocomplete = new NiteAutocomplete({
@@ -33,25 +33,28 @@ const autocomplete = new NiteAutocomplete({
 ```
 
 ```
-//Returns the current selected item (null if selection is empty)
+###### Returns the current selected item (null if selection is empty)
 autocomplete.getSelectedElement();
 
-//Manually set the current selected element
-//Note that the object can have any field, this is just an example)
+###### Manually set the current selected element
+###### /Note that the object can have any field, this is just an example)
 autocomplete.setSelectedElement({
     id: 1,
     name: 'John',
     surname: 'Doe'
 });
 
-//Disables the reset functionality
+###### Reset selection
+autocomplete.reset();
+
+###### Disables the reset functionality
 autocomplete.disableResetIcon();
 
-//Re-enables the reset functionality
+###### Re-enables the reset functionality
 autocomplete.enableResetIcon();
 ```
 
-# Available Options
+## Available Options
 
 ```
 //Default settings
