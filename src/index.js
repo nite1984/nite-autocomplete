@@ -1,6 +1,6 @@
 /**
  * NiteAutocomplete
- * v1.0.4 2022/06/07
+ * v1.0.5 2022/06/07
  * Author: Marco Scattina
  * https://github.com/nite1984/nite-autocomplete
  * 
