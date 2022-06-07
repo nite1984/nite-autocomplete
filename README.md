@@ -14,6 +14,7 @@ window.NiteAutocomplete = NiteAutocomplete;
 
 ## Example Usage
 
+##### Initialization
 ```
 const autocomplete = new NiteAutocomplete({
     inputSelector: '#input-autocomplete',
@@ -32,13 +33,12 @@ const autocomplete = new NiteAutocomplete({
 });
 ```
 
+##### Returns the current selected item (null if selection is empty)
 ```
-###### Returns the current selected item (null if selection is empty)
 autocomplete.getSelectedElement();
 ```
 
-###### Manually set the current selected element
-###### Note that the object can have any field, this is just an example)
+##### Manually set the current selected element (Note that the object can have any field, this is just an example)
 ```
 autocomplete.setSelectedElement({
     id: 1,
@@ -47,17 +47,17 @@ autocomplete.setSelectedElement({
 });
 ```
 
-###### Reset selection
+##### Reset selection
 ```
 autocomplete.reset();
 ```
 
-###### Disables the reset functionality
+##### Disables the reset functionality
 ```
 autocomplete.disableResetIcon();
 ```
 
-###### Re-enables the reset functionality
+##### Re-enables the reset functionality
 ```
 autocomplete.enableResetIcon();
 ```
