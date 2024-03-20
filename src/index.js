@@ -1,6 +1,6 @@
 /**
  * NiteAutocomplete
- * v1.0.5 2022/06/07
+ * v1.1.0 2024/03/20
  * Author: Marco Scattina
  * https://github.com/nite1984/nite-autocomplete
  * 
@@ -53,16 +53,20 @@ const NiteAutocomplete = (function () {
             throw new Error('Invalid args');
         }
 
-        const searchInputIcon = searchInput.parentNode.querySelector('.dropdown-icon');
+        const searchInputIcon = searchInput.parentNode.classList.contains("form-floating") ? searchInput.parentNode.parentNode.querySelector('.dropdown-icon') : searchInput.parentNode.querySelector('.dropdown-icon');
+        //const searchInputIcon = searchInput.parentNode.querySelector('.dropdown-icon');
         const dropdownMenu = document.createElement('div');
 
-        if (!searchInputIcon) {
-            dropdownMenu.classList.add('dropdown-menu', 'w-100');
-            searchInput.insertAdjacentElement('afterend', dropdownMenu);
-        } else {
-            dropdownMenu.classList.add('dropdown-menu');
-            searchInputIcon.parentNode.parentNode.insertAdjacentElement('afterend', dropdownMenu);
-        }
+        dropdownMenu.classList.add('dropdown-menu', 'w-100');
+        searchInput.insertAdjacentElement('afterend', dropdownMenu);
+
+        // if (!searchInputIcon) {
+        //     dropdownMenu.classList.add('dropdown-menu', 'w-100');
+        //     searchInput.insertAdjacentElement('afterend', dropdownMenu);
+        // } else {
+        //     dropdownMenu.classList.add('dropdown-menu');
+        //     searchInputIcon.parentNode.parentNode.insertAdjacentElement('afterend', dropdownMenu);
+        // }
 
         const keys = {
             up: 38,
